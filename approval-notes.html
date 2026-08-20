@@ -109,8 +109,8 @@
     <p class="lead">Include any context for this decision, then approve to move the deal forward.</p>
 
     <form id="approvalForm" method="GET" action="https://www.zohoapis.com/crm/v2/functions/approveOrDenyDeal/actions/execute">
-      <input type="hidden" name="auth_type" value="apikey">
-      <input type="hidden" name="zapikey" value="YOUR_ZAPIKEY_HERE">
+      <input type="hidden" name="auth_type" value="https://www.zohoapis.com/crm/v7/functions/giftcarddirectorapproval/actions/execute?auth_type=oauth">
+      <input type="hidden" name="zapikey" value="https://www.zohoapis.com/crm/v7/functions/giftcarddirectorapproval/actions/execute?auth_type=apikey&zapikey=1003.7a33d0e0c408e5bac137b64a2bb31cad.bd6d1c4b45cd9fab3dcc4f8194ce2054">
       <input type="hidden" name="dealId" id="dealIdField" value="">
       <input type="hidden" name="action" value="approve">
 
